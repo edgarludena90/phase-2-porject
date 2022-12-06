@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
   return (
     <header>
-      <nav>
+      <nav className='navbar'>
         <h1 className='branding'>
           <span className='logo'>{'//'}</span>
           ANIME WORLD
