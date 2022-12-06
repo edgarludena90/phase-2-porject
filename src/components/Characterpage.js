@@ -1,1 +1,0 @@
-//this component will be for the shows  info. 
