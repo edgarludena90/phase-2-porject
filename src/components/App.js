@@ -1,6 +1,5 @@
-//react router imports
-// import { Switch } from 'react-router-dom'
-
+import { Routes, Route } from 'react-router-dom'
+import RandomHome from './RandomHome'
 import Header from './Header'
 import AnimeContainer from './AnimeContainer'
 import AnimeCard from './AnimeCard'
@@ -27,16 +26,29 @@ function App() {
 
   return (
     <div className='App'>
-      <header className='App-header'>
-        {/* <Switch> */}
-          {/* <Route> */}
-          {/* <RandomHome/> */}
-          {/* </Route> */}
-          <AnimeContainer VilliansList={VilliansList} HerosList={HerosList} />
-          <AnimeCard />
-          <Header />
-        {/* </Switch> */}
-      </header>
+      <Header VilliansList={VilliansList} HerosList={HerosList} />
+      <Routes>
+        <Route
+          exact
+          path='/'
+          element={
+            <div>
+              <RandomHome />
+            </div>
+          }
+        />
+        <Route
+          path='/char'
+          element={
+            <div>
+              <AnimeContainer
+                VilliansList={VilliansList}
+                HerosList={HerosList}
+              />
+            </div>
+          }
+        />
+      </Routes>
     </div>
   )
 }

@@ -9,16 +9,15 @@ function Header() {
           ANIME WORLD
         </h1>
         <div className='navigation'>
-          <a className='button' href='/projects'>
-            ANIME BIO
+          <a className='button' href='/'>
+            HOME
           </a>
-          <a className='button' href='/projects/new'>
-            ANIME HIGHLIGHTS
+          <a className='button' href='/char'>
+            characters
           </a>
-          <a className='button' href='/projects/new'>
+          <a className='button' href='/form'>
             ADD YOUR ANIME
           </a>
-          
         </div>
       </nav>
     </header>

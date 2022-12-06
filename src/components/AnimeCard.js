@@ -14,7 +14,7 @@ function AnimeCard({ id, name, bio, stats, image, goal, videoUrl, origin }) {
         <div className="card__title">{name}</div>
         <p className="card__text">{bio}</p>
         <div className="card__detail">
-          <Button variant='primary'>Go somewhere</Button>
+          <Button variant='primary'>ANIME ME</Button>
         </div>
       </div>
     </div>
