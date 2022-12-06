@@ -34,7 +34,7 @@ function App() {
           path='/'
           element={
             <div>
-              <RandomHome />
+              <RandomHome heroes={HerosList} villians={VilliansList}/>
             </div>
           }
         />

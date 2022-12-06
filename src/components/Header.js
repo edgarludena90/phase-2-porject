@@ -13,7 +13,7 @@ function Header() {
             HOME
           </a>
           <a className='button' href='/char'>
-            characters
+            CHARACTERS
           </a>
           <a className='button' href='/form'>
             ADD YOUR ANIME

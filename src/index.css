@@ -50,11 +50,10 @@ body {
   padding: 0;
 }
 
-.cards-container {
+.container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap:  1rem;
-  margin: 1rem;
+  grid-template-columns: repeat(auto-fill, 250px);
+  padding: auto;
 }
 
 .card {
@@ -83,6 +82,8 @@ body {
   overflow: hidden;
   position: relative;
   transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);
+  width: 300px;
+  height: 300px;
 }
 
 .card__image:hover{
@@ -98,23 +99,5 @@ body {
   text-transform: uppercase;
 }
 
-.card__text, .card__detail p {
-  flex: 1 1 auto;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  margin-bottom: 1.25rem;
-}
 
-.card__detail {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.card__detail p {
-  text-align: center;
-}
-
-.card__detail button{
-  text-align: center;
-}
 
