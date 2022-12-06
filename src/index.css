@@ -3,26 +3,18 @@
 /* base styles */
 * {
   margin: 0;
+  box-sizing: border-box;
   font-family: "Quicksand";
   color: #333;
+  
 }
 body {
-  color: #999999;
   font-family: "Quicksand";
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0;
-  padding: 1rem;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -moz-font-feature-settings: "liga" on;
+  font-size: 16px;
+  color: var(--color);
+  background-color: var(--background);
 }
-img {
-  height: auto;
-  max-width: 100%;
-  vertical-align: middle;
-}
+
 
 
 
@@ -32,7 +24,7 @@ img {
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  //border-bottom: 1px solid #f2f2f2;
 }
 .navbar h1 {
   color: #f1356d;
@@ -48,11 +40,8 @@ img {
 .navbar a:hover {
   color: #f1356d;
 }
-.content {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
-}
+
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -129,8 +118,3 @@ img {
   text-align: center;
 }
 
-@media(max-width: 700px){
-  .cards__item{
-    width: 50%;
-  }
-}
