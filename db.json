@@ -1,0 +1,126 @@
+{
+  "Heroes": [
+    {
+      "id": 1,
+      "name": "Vegeta",
+      "bio": "Regal, egotistical, and full of pride, Vegeta was once a ruthless, cold-blooded warrior and outright killer, but later abandons his role in the Frieza Force, instead opting to remain and live on Earth. He would later repeatedly fight alongside Universe 7's most powerful warriors in order to protect Earth and his family, as well as to surpass Goku in power.",
+      "stats": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8OlzsFlfv7AVhgCaaqYh5d3LedqXD9xcISA&usqp=CAU",
+      "Goal": " Become Strongest sayain ",
+      "videoUrl": "https://youtu.be/vwACB1jxtaM",
+      "origin": "Planet Vegeta"
+    },
+    {
+      "id": 2,
+      "name": "Eren Jaeger",
+      "bio": "Eren was born and raised in Shiganshina District, which is located on the southern edge of Wall Maria. He lived there until the year 845, when the Colossal and Armored Titans breached the Wall, allowing a flood of Titans to invade and destroy the city. During the incident, Eren witnessed his mother being murdered and eaten by a smiling Titan.[25] This event aroused in Eren an intense hatred towards the Titans, and he swore to wipe all of them off the face of the earth.[27]",
+      "stats": "",
+      "image": "https://w0.peakpx.com/wallpaper/339/864/HD-wallpaper-shingeki-no-kyojin-anime-attack-on-titan-eren-manga.jpg",
+      "Goal": "Freedom!!!!",
+      "videoUrl": "https://youtu.be/4oFAq36wcAU",
+      "origin": "Southern region of Wall Maria "
+    },
+    {
+      "id": 3,
+      "name": "Monkey D. Luffy",
+      "bio": "Born in Foosha Village, Luffy is the son of Monkey D. Dragon, the leader of the Revolutionary Army,[32] and the grandson of the Marine hero Monkey D. Garp,[33] and their family carries the initial and Will of D.[32] Luffy met Red-Haired Shanks, who gave Luffy the very straw hat that has become Luffy's signature accessory, having gifted it to the boy as part of a promise for them to meet again someday after he became a great pirate.[34] Growing up on Dawn Island, Luffy befriended and became sworn brothers of the late Fire Fist Portgas D. Ace[35] and Revolutionary Chief-of-Staff Sabo,[36] as well as being raised under the care of Curly Dadan.[37] ",
+      "stats": "",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/d/d8/Monkey_D._Luffy_Manga_Post_Timeskip_Infobox.png/revision/latest?cb=20141011154302",
+      "Goal": "To Become The Pirate King",
+      "videoUrl": "https://youtu.be/nd5eyL3yQc4",
+      "origin": ""
+    },
+    {
+      "id": 4,
+      "name": "Saitama",
+      "bio": "Due to his great power and being virtually indestructible, Saitama is an indifferent person. Even the mightiest foes pose no challenge to him, so he does not take his hero work seriously, goes through everything with little to no effort, and yearns for an opponent that can provide him with a challenge.[27] The lack of worthy opponents has led him to suffer from a self-imposed existential crisis,[7] and he claims that his ability to feel any emotions has dulled considerably.[28] The combination of his attitude, unstoppable power, and unimpressive appearance often causes his battles to become anticlimactic. Saitama will usually allow his opponents to rant about their motives and power up into their strongest forms, before obliterating them with a single punch.[29]",
+      "stats": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYa-MAp2_opMZOlL5mUkfIAmBOgwDbiJPIUA&usqp=CAU",
+      "Goal": "Become Strongest Hero ",
+      "videoUrl": "https://youtu.be/km2OPUctni4",
+      "origin": " Hails From Z-City"
+    },
+    {
+      "id": 5,
+      "name": "Rengoku ",
+      "bio": "Due to his great power and being virtually indestructible, Saitama is an indifferent person. Even the mightiest foes pose no challenge to him, so he does not take his hero work seriously, goes through everything with little to no effort, and yearns for an opponent that can provide him with a challenge.[27] The lack of worthy opponents has led him to suffer from a self-imposed existential crisis,[7] and he claims that his ability to feel any emotions has dulled considerably.[28] The combination of his attitude, unstoppable power, and unimpressive appearance often causes his battles to become anticlimactic. Saitama will usually allow his opponents to rant about their motives and power up into their strongest forms, before obliterating them with a single punch.[29]",
+      "stats": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYa-MAp2_opMZOlL5mUkfIAmBOgwDbiJPIUA&usqp=CAU",
+      "Goal": "Annihilate the Demon race ",
+      "videoUrl": "https://youtu.be/voTOYSvCfJ8",
+      "origin": "Sakurashinmachi in Setagaya,"
+    },
+    {
+      "id": 6,
+      "name": "Naruto Uzumaki ",
+      "bio": "Naruto is a boisterous and exuberant boy. He would end sentences with Dattebayo! When excited or frustrated. He has a number of childish traits, such as being a very picky eater (he almost exclusively eats ramen), being afraid of ghosts, and carries a chubby green-frog wallet which he calls Gama-chan. Naruto is heedless to formality or social standings and has a habit of giving people he meets nicknames or addressing them without appropriate honourifics, as shown when he opted to call the Second Hokage a name he thought of off the top of his head instead of simply Lord Second (二代目様, Nidaime-sama).",
+      "stats": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeg3TAoFALHsIZUwOYVbS0A-wGwMONIBJWwQ&usqp=CAU",
+      "Goal": "Becomes A Shinobi With Goal To Be The Hokage Of The Village. ",
+      "videoUrl": "https://youtu.be/ejWo1KHRYTI",
+      "origin": " Konohagakure (Hidden Leaf Village)"
+    }
+  ],
+  "Villians": [
+    {
+      "id": 1,
+      "name": "Frieza",
+      "bio": "Considered Goku's greatest foe and archnemesis, he has made several comebacks since his fight with Goku on Namek, including multiple invasions of Earth. Recently, he was chosen to represent Universe 7 as the tenth member of Team Universe 7 for the Tournament of Power as a replacement for Good Buu. This makes him the most recurring villain of the Dragon Ball series.",
+      "stats": "",
+      "image": "https://i0.wp.com/highoncinemaa.com/wp-content/uploads/2022/05/Dragon-Ball-Super-Super-Hero-Frieza-Returns-In-The-New-Trailer.jpg?fit=1200%2C628&ssl=1",
+      "Goal": "He does not want to be immortal, he does not want to become invincible, he wants to become taller! ",
+      "videoUrl": "https://youtu.be/GkVD4e8aHIk",
+      "origin": "Unknown "
+    },
+    {
+      "id": 2,
+      "name": "Garou",
+      "bio": "Garou is a villain, a martial arts prodigy, the self-proclaimed Hero Hunter, and a major adversary of the Hero Association and Monster Association. He is a disciple of Bang and was once expelled from his dojo for going on a rampage. Because of his fascination with monsters, he is commonly called the Human Monster. Sitch of the Hero Association views him as a grave threat to the organization despite being only a human.",
+      "stats": "",
+      "image": "https://staticc.sportskeeda.com/editor/2022/05/8f5d0-16524306209369-1920.jpg",
+      "Goal": "he simply wishes to beat up heroes in a punishing fashion",
+      "videoUrl": "https://youtu.be/M0RGF66groA",
+      "origin": "Monster Association Headquarters"
+    },
+    {
+      "id": 3,
+      "name": "Zeke Yeager",
+      "bio": "Zeke Yeager was the former Captain of Marley's Warrior Unit, assigned to take the Founding Titan from the Eldians of Paradis Island.He was the inheritor of the Beast Titan, and was considered to be the strongest warrior by Reiner Braun,contrasting Levi Ackerman's title of humanity's strongest soldier.He manipulated and deceived both sides of the war between Eldia and Marley in order to achieve his own agenda of causing the extinction of his own people, which he viewed as salvation.",
+      "stats": "",
+      "image": "https://static.wikia.nocookie.net/shingekinokyojin/images/4/40/Zeke_Jaeger_%28Anime%29_character_image.png/revision/latest?cb=20221009190448",
+      "Goal": "Free the world from its fear of the Titans and the Eldians from their suffering",
+      "videoUrl": "https://youtu.be/rAVQH0WeP7A",
+      "origin": "Southern region of Wall Maria"
+    },
+    {
+      "id": 4,
+      "name": "Donquixote Doflamingo ",
+      "bio": "Donquixote Doflamingo, nicknamed Heavenly Yaksha, is the captain of the Donquixote Pirates. Prior to his imprisonment, he was a member of the Seven Warlords of the Sea with a frozen bounty of Beli.pn340,000,000, as well as the most influential underworld broker under the codename Joker. He is also a former World Noble, descended from the Donquixote Family. He is the first son of the late Donquixote Homing and the older brother of the late Rosinante,both of whom he killed out of feeling betrayed by them. Doflamingo became the King of Dressrosa after taking the throne from Riku Doldo III eight years before the start of the series.He ruled the country tyrannically. He is a major antagonist in the Marineford Arc where he took part in the Summit War of Marineford and sided with the Marines, along with most of the other Warlords of the Sea, and the primary antagonist of the Dressrosa Arc and the Dressrosa Saga as a whole, being the impetus for the entirety of the saga's events.",
+      "stats": "",
+      "image": "https://i.pinimg.com/736x/ea/ec/3c/eaec3c6417db4eb53ac0beafc9a7051b.jpg",
+      "Goal": "A new world in which only the strong survive",
+      "videoUrl": "https://youtu.be/01C4OWesgyY",
+      "origin": "Minion Island is an island in North Blue"
+    },
+    {
+      "id": 5,
+      "name": "Pain",
+      "bio": "Nagato was a shinobi of Amegakure and descendant of the Uzumaki clan. Forming Akatsuki alongside his friends (and fellow war orphans) Yahiko and Konan, Nagato dreamed of bringing peace to the violent shinobi world. However, following Yahiko's death, Nagato adopted the alias of Pain and, along with Konan, began leading a new Akatsuki — one that would force the world into peace using any means necessary",
+      "stats": "",
+      "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/03/Pain-Naruto.jpg",
+      "Goal": "Bringing peace to the violent shinobi world.",
+      "videoUrl": "https://youtu.be/dQZybnEOxvQ",
+      "origin": "Konohagakure (Hidden Leaf Village)"
+    },
+    {
+      "id": 6,
+      "name": "Muzan Kibutsuji",
+      "bio": "Muzan Kibutsuji is the main antagonist of Demon Slayer: Kimetsu no Yaiba. He is the Demon King, the first of his kind, and the progenitor of all other demons in existence. [8] Muzan is also the leader of the Twelve Kizuki, an organization of the twelve strongest demons in existence that serve directly under him. A millennium ago, during the Heian Era, Muzan was turned into a demon during an experimental treatment trying to cure his terminal illness,and his goal since then was to live without the fear of death and become truly eternal.He plans to accomplish this in 2 ways: finding the Blue Spider Lily or creating more demons in hopes that one day one would be able to conquer their weakness of sunlight.",
+      "stats": "",
+      "image": "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/0/0e/Muzan_Kibutsuji_Full_Body_%28Anime%29.png/revision/latest/scale-to-width-down/350?cb=20210731042132",
+      "Goal": "Live without the fear of death and become truly eternal.",
+      "videoUrl": "https://youtu.be/NNE-SJDWTks",
+      "origin": " Japan's Heian era,"
+    }
+  ]
+}
