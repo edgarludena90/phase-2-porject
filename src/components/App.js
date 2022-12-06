@@ -1,9 +1,7 @@
 //react router imports
-import { Switch } from 'react-router-dom'
+// import { Switch } from 'react-router-dom'
 
 import Header from './Header'
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
 import AnimeContainer from './AnimeContainer'
 import AnimeCard from './AnimeCard'
 import React, { useState, useEffect } from 'react'
@@ -30,14 +28,14 @@ function App() {
   return (
     <div className='App'>
       <header className='App-header'>
-        <Switch>
-          <RandomHome />
+        {/* <Switch> */}
+          {/* <Route> */}
+          {/* <RandomHome/> */}
+          {/* </Route> */}
           <AnimeContainer VilliansList={VilliansList} HerosList={HerosList} />
           <AnimeCard />
-
-          <Navbar />
           <Header />
-        </Switch>
+        {/* </Switch> */}
       </header>
     </div>
   )
