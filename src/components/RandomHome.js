@@ -1,4 +1,5 @@
 import React, {useState, useEffect}  from 'react'
+import { Card } from 'react-bootstrap'
  
 
 function RandomHome({heroes, villians}) {
@@ -30,9 +31,9 @@ function RandomHome({heroes, villians}) {
     </button>
     {isLoading ? <h1>...Loading</h1> : null}
     {anime ? (
-      <div> 
+      <Card id="random-card"> 
         <img src={anime.image}/>
-      </div>
+      </Card>
     ) : null}
   </div>
   )
