@@ -32,8 +32,10 @@ function AnimeContainer({ HerosList, VilliansList }) {
     )
   })
   return (
-    <div className='container'>
+    <div id='wrapper'>
+      <div className='container'>
       {heroCard} {villianCard}
+      </div>
     </div>
   )
 }
