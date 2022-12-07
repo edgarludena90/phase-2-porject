@@ -1,7 +1,8 @@
 import React from 'react'
 
-function AnimePage({ animeInfo, setAnimeInfo }) {
+function AnimePage({ animeInfo }) {
   const infoAnime = animeInfo?.map(info => {
+    console.log(infoAnime)
     return (
       <AnimePage
         key={info.id}
@@ -16,6 +17,11 @@ function AnimePage({ animeInfo, setAnimeInfo }) {
       />
     )
   })
+  return (
+    <div id='wrapper'>
+      <div className='container'>{infoAnime}</div>
+    </div>
+  )
 }
 
 export default AnimePage

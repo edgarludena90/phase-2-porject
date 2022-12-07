@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 function AnimeCard({ id, name, bio, stats, image, goal, videoUrl, origin }) {
   const [animeLikes, setAnimeLikes] = useState(true)
@@ -18,7 +19,8 @@ function AnimeCard({ id, name, bio, stats, image, goal, videoUrl, origin }) {
 
           {/* we added the heart button just need to figure out how to change it from red to green */}
           <div className='card__detail'>
-            <Button variant='primary'>More 👻</Button>
+            <Link to={`/info/${id}`}
+            >show more</Link>
             {animeLikes ? (
               <Button onClick={likeButton} id='like-button'>
                 💔
