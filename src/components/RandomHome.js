@@ -21,7 +21,7 @@ function RandomHome({heroes, villians}) {
       setTimeout(() => {
         setAnime(data)
         setIsLoading(false)
-      }, "1000")
+      }, "3000")
 
     })
   }
@@ -33,7 +33,7 @@ function RandomHome({heroes, villians}) {
     <button onClick={getRandomAnime}>
       Get Random Anime
     </button>
-    {isLoading ? <img src="https://64.media.tumblr.com/4b36f39fa7f11002110ea5498095ccca/tumblr_n05ialS7Gv1sh547so1_500.gif"/>  : null}
+    {isLoading ? <img className='giphy' src="https://64.media.tumblr.com/4b36f39fa7f11002110ea5498095ccca/tumblr_n05ialS7Gv1sh547so1_500.gif"/>  : null}
     {anime && !isLoading ? (
       <Card id="random-card"> 
         <img src={anime.image}/>

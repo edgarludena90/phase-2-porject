@@ -145,12 +145,29 @@ select {
 }
 
 #random-card{
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+  border: 4px solid var(--dark-turquoise);
+  grid-gap: 1rem;
 
-  padding-left: 3rm;
+  padding-top: 3rm;
   height: 300px;
   width: 300px;
 
+}
+
+.giphy{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+  border: 4px solid var(--dark-turquoise);
+  grid-gap: 1rem;
+  padding-top: 3rm;
+  height: 300px;
+  width: 300px;
 }
 
 #random-card img{
