@@ -14,14 +14,14 @@ function RandomHome({heroes, villians}) {
       let randomIndex = Math.floor(Math.random() * routes.length)
       let foundRoute = routes[randomIndex]
       console.log(foundRoute)
-    let randNum = Math.floor(Math.random() * heroes.length)  
+    let randNum = Math.floor(Math.random() * (heroes.length -1) ) + 1  
     fetch(`http://localhost:4000/${foundRoute}/${randNum}`)
      .then(res => res.json())
      .then(data => {
       setTimeout(() => {
         setAnime(data)
         setIsLoading(false)
-      }, "1500")
+      }, "1000")
 
     })
   }
@@ -34,7 +34,7 @@ function RandomHome({heroes, villians}) {
       Get Random Anime
     </button>
     {isLoading ? <img src="https://64.media.tumblr.com/4b36f39fa7f11002110ea5498095ccca/tumblr_n05ialS7Gv1sh547so1_500.gif"/>  : null}
-    {anime ? (
+    {anime && !isLoading ? (
       <Card id="random-card"> 
         <img src={anime.image}/>
       </Card>
