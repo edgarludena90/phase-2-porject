@@ -42,10 +42,6 @@ body {
 #wrapper {
   min-height: 100vh;
   display: flex;
-  grid-area: 
-  "contant1 " 
-  "contant2"
-  "contant3";
 }
 
 cards-container {
@@ -147,5 +143,20 @@ select {
   transition: all 0.5s;
   
 }
+
+#random-card{
+  position: relative;
+
+  padding-left: 3rm;
+  height: 300px;
+  width: 300px;
+
+}
+
+#random-card img{
+  position: relative;
+}
+
+
 
 

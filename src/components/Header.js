@@ -5,7 +5,7 @@ function Header() {
     <header>
       <nav className='navbar'>
         <h1 className='branding'>
-          <span className='logo'>{'//'}</span>
+          <span className='logo'>{''}</span>
           ANIME WORLD
         </h1>
         <div className='navigation'>
