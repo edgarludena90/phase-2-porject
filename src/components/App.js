@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import RandomHome from './RandomHome'
 import Header from './Header'
 import AnimeContainer from './AnimeContainer'
+import AnimePage from './AnimePage'
 import React, { useState, useEffect } from 'react'
 import AddAnime from './AddAnime'
 const api1 = 'http://localhost:4000/Heroes'
@@ -12,6 +13,8 @@ function App() {
   const [VilliansList, setVilliansList] = useState([])
   // for useState for the add anime form
   const [addedAnime, setAddedAnime] = useState('')
+  //the useState below is for the characterpage/ask gehrig to double check lol
+  const [animeInfo, setAnimeInfo] = useState([])
 
   useEffect(() => {
     fetch(api1)
@@ -34,7 +37,7 @@ function App() {
           path='/'
           element={
             <div>
-              <RandomHome heroes={HerosList} villians={VilliansList}/>
+              <RandomHome heroes={HerosList} villians={VilliansList} />
             </div>
           }
         />
@@ -46,6 +49,14 @@ function App() {
                 VilliansList={VilliansList}
                 HerosList={HerosList}
               />
+            </div>
+          }
+        />
+        <Route
+          path='/info'
+          element={
+            <div>
+              <AnimePage animeinfo={animeInfo} setAnimeInfo={setAnimeInfo} />
             </div>
           }
         />

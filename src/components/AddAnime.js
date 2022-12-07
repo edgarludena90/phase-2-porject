@@ -8,7 +8,7 @@ function NewAnimeForm({ addedAnime, setAddedAnime }) {
   const [newVideo, setNewVideo] = useState('')
   const [newBio, setNewBio] = useState('')
   const [newImage, setNewImage] = useState('')
-  const [isHero, setIsHero] = useState(false) // for the check box function 
+  const [isHero, setIsHero] = useState(false) // for the check box function
 
   const addAnime = e => {
     e.preventDefault()
@@ -20,16 +20,17 @@ function NewAnimeForm({ addedAnime, setAddedAnime }) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        Anime: newAnime,
+        name: newAnime,
         image: newImage,
-        video: newVideo,
+        videoUrl: newVideo,
         bio: newBio,
       }),
     })
       .then(res => res.json())
       .then(res => setAddedAnime([...addedAnime, res]))
   }
-
+// ask how to add a a toggle button on hwo to go back and forth from vilian to hero 
+//also to add functionality to the "moreinfo button"
   return (
     <div className='new-Anime-form' onSubmit={addAnime}>
       <div
@@ -45,8 +46,8 @@ function NewAnimeForm({ addedAnime, setAddedAnime }) {
       <form>
         <input
           type='text'
-          name='name'
-          placeholder='Anime name'
+          name='name '
+          placeholder='name'
           value={newAnime}
           onChange={e => setNewAnime(e.target.value)}
         />
