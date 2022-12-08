@@ -1,40 +1,26 @@
 import React from 'react'
 import AnimeCard from './AnimeCard'
-function AnimeContainer({ HerosList, VilliansList }) {
-  const heroCard = HerosList?.map(hero => {
+function AnimeContainer({ CharactersList }) {
+  const charCard = CharactersList?.map(character => {
     return (
       <AnimeCard
-        key={hero.id}
-        id={hero.id}
-        name={hero.name}
-        bio={hero.bio}
-        stats={hero.stats}
-        image={hero.image}
-        goal={hero.goal}
-        videoUrl={hero.videoUrl}
-        origin={hero.origin}
+        key={character.id}
+        id={character.id}
+        name={character.name}
+        bio={character.bio}
+        stats={character.stats}
+        image={character.image}
+        goal={character.goal}
+        videoUrl={character.videoUrl}
+        origin={character.origin}
       />
     )
   })
-  const villianCard = VilliansList?.map(hero => {
-    return (
-      <AnimeCard
-        key={hero.id}
-        id={hero.id}
-        name={hero.name}
-        bio={hero.bio}
-        stats={hero.stats}
-        image={hero.image}
-        goal={hero.goal}
-        videoUrl={hero.videoUrl}
-        origin={hero.origin}
-      />
-    )
-  })
+
   return (
     <div id='wrapper'>
       <div className='container'>
-      {heroCard} {villianCard}
+      {charCard}
       </div>
     </div>
   )

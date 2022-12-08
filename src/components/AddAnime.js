@@ -1,19 +1,18 @@
 import React, { useState } from 'react'
 
-const heroApi = 'http://localhost:4000/Heroes'
-const villianApi = 'http://localhost:4000/Villians'
+// const heroApi = 'http://localhost:4000/Heroes'
+// const villianApi = 'http://localhost:4000/Villians'
+const api = 'http://localhost:4000/Characters'
 
 function NewAnimeForm({ addedAnime, setAddedAnime }) {
   const [newAnime, setNewAnime] = useState('')
   const [newVideo, setNewVideo] = useState('')
   const [newBio, setNewBio] = useState('')
   const [newImage, setNewImage] = useState('')
-  const [isHero, setIsHero] = useState(false) // for the check box function
-
+  
   const addAnime = e => {
     e.preventDefault()
-    const postUrl = isHero ? heroApi : villianApi
-    fetch(postUrl, {
+    fetch(api, {
       method: 'POST',
       headers: {
         Accept: 'application/json',
@@ -34,10 +33,7 @@ function NewAnimeForm({ addedAnime, setAddedAnime }) {
   return (
     <div className='new-Anime-form' onSubmit={addAnime}>
       <div
-        className='checkBoxe'
-        onChange={() => {
-          setIsHero(!isHero)
-        }}
+       
       >
         {' '}
       </div>

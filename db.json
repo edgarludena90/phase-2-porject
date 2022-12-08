@@ -1,5 +1,5 @@
 {
-  "Heroes": [
+  "Characters": [
     {
       "id": 1,
       "name": "Vegeta",
@@ -59,11 +59,10 @@
       "Goal": "Becomes A Shinobi With Goal To Be The Hokage Of The Village. ",
       "videoUrl": "https://youtu.be/ejWo1KHRYTI",
       "origin": " Konohagakure (Hidden Leaf Village)"
-    }
-  ],
-  "Villians": [
+    },
+  
     {
-      "id": 1,
+      "id": 7,
       "name": "Frieza",
       "bio": "Considered Goku's greatest foe and archnemesis, he has made several comebacks since his fight with Goku on Namek, including multiple invasions of Earth. Recently, he was chosen to represent Universe 7 as the tenth member of Team Universe 7 for the Tournament of Power as a replacement for Good Buu. This makes him the most recurring villain of the Dragon Ball series.",
       "stats": "",
@@ -73,7 +72,7 @@
       "origin": "Unknown "
     },
     {
-      "id": 2,
+      "id": 8,
       "name": "Garou",
       "bio": "Garou is a villain, a martial arts prodigy, the self-proclaimed Hero Hunter, and a major adversary of the Hero Association and Monster Association. He is a disciple of Bang and was once expelled from his dojo for going on a rampage. Because of his fascination with monsters, he is commonly called the Human Monster. Sitch of the Hero Association views him as a grave threat to the organization despite being only a human.",
       "stats": "",
@@ -83,7 +82,7 @@
       "origin": "Monster Association Headquarters"
     },
     {
-      "id": 3,
+      "id": 9,
       "name": "Reiner Braun",
       "bio": "Reiner Braun is the Vice Captain of the Warrior Unit and the main protagonist of Attack on Titan from the Marleyan perspective. He is the illegitimate son of an Eldian and a Marleyan and grew up in Liberio's internment zone. Eventually, he was selected as a child to become one of Marley's Warriors. At the age of ten, he inherited the power of the Armored Titan. In the year 845, he infiltrated Paradis Island alongside Bertolt Hoover, Annie Leonhart, and Marcel Galliard as part of an operation to reclaim the Founding Titan.",
       "stats": "",
@@ -93,7 +92,7 @@
       "origin": "Liberio"
     },
     {
-      "id": 4,
+      "id": 10,
       "name": "Donquixote Doflamingo ",
       "bio": "Donquixote Doflamingo, nicknamed Heavenly Yaksha, is the captain of the Donquixote Pirates. Prior to his imprisonment, he was a member of the Seven Warlords of the Sea with a frozen bounty of Beli.pn340,000,000, as well as the most influential underworld broker under the codename Joker. He is also a former World Noble, descended from the Donquixote Family. He is the first son of the late Donquixote Homing and the older brother of the late Rosinante,both of whom he killed out of feeling betrayed by them. Doflamingo became the King of Dressrosa after taking the throne from Riku Doldo III eight years before the start of the series.He ruled the country tyrannically. He is a major antagonist in the Marineford Arc where he took part in the Summit War of Marineford and sided with the Marines, along with most of the other Warlords of the Sea, and the primary antagonist of the Dressrosa Arc and the Dressrosa Saga as a whole, being the impetus for the entirety of the saga's events.",
       "stats": "",
@@ -103,7 +102,7 @@
       "origin": "Minion Island is an island in North Blue"
     },
     {
-      "id": 5,
+      "id": 11,
       "name": "Pain",
       "bio": "Nagato was a shinobi of Amegakure and descendant of the Uzumaki clan. Forming Akatsuki alongside his friends (and fellow war orphans) Yahiko and Konan, Nagato dreamed of bringing peace to the violent shinobi world. However, following Yahiko's death, Nagato adopted the alias of Pain and, along with Konan, began leading a new Akatsuki — one that would force the world into peace using any means necessary",
       "stats": "",
@@ -113,7 +112,7 @@
       "origin": "Konohagakure (Hidden Leaf Village)"
     },
     {
-      "id": 6,
+      "id": 12,
       "name": "Muzan Kibutsuji",
       "bio": "Muzan Kibutsuji is the main antagonist of Demon Slayer: Kimetsu no Yaiba. He is the Demon King, the first of his kind, and the progenitor of all other demons in existence. [8] Muzan is also the leader of the Twelve Kizuki, an organization of the twelve strongest demons in existence that serve directly under him. A millennium ago, during the Heian Era, Muzan was turned into a demon during an experimental treatment trying to cure his terminal illness,and his goal since then was to live without the fear of death and become truly eternal.He plans to accomplish this in 2 ways: finding the Blue Spider Lily or creating more demons in hopes that one day one would be able to conquer their weakness of sunlight.",
       "stats": "",
@@ -122,6 +121,6 @@
       "videoUrl": "https://youtu.be/NNE-SJDWTks",
       "origin": " Japan's Heian era,"
     }
-    
+  
   ]
 }
