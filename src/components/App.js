@@ -6,6 +6,8 @@ import AnimePage from './AnimePage'
 import React, { useState, useEffect } from 'react'
 import AddAnime from './AddAnime'
 import AnimeDetail from './AnimeDetail'
+
+
 const api = 'http://localhost:4000/Characters'
 
 function App() {
@@ -22,13 +24,14 @@ function App() {
 
   return (
     <div className='App'>
+     
       <Header CharactersList={CharactersList} />
       <Routes>
         <Route
           exact
           path='/'
           element={
-            <div>
+            <div className="">
               <RandomHome characters={CharactersList} />
             </div>
           }
@@ -60,6 +63,8 @@ function App() {
         />
       </Routes>
     </div>
+    
+    
   )
 }
 

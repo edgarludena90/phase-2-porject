@@ -13,9 +13,10 @@ function AnimeCard({ id, name, bio, stats, image, goal, videoUrl, origin }) {
         <img src={image} alt={name} className='card__image' />
         <div className='card__content'>
           <div className='card__title'>{name}</div>
-
           <div className='card__detail'>
-            <Link to={`/info/${id}`}>ANIME MADNESS!</Link>
+            <div className='info-btn'>
+            <Link to={`/info/${id}`}>show more</Link>
+            <div className='card__likes'>
             {animeLikes ? (
               <Button onClick={likeButton} id='like-button'>
                 💔
@@ -25,6 +26,10 @@ function AnimeCard({ id, name, bio, stats, image, goal, videoUrl, origin }) {
                 ❤️
               </Button>
             )}
+            </div>
+            </div>
+            <div className='card__stats'>
+            </div>
           </div>
         </div>
       </div>
@@ -34,4 +39,10 @@ function AnimeCard({ id, name, bio, stats, image, goal, videoUrl, origin }) {
 
 export default AnimeCard
 
-
+// {
+//   animeLikes ? (
+//     <button onClick={likeButton} className='primary'></button>
+//   ) : (
+//     <button onClick={likeButton}>Out of Stock</button>
+//   )
+// }
