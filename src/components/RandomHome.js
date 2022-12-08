@@ -28,18 +28,24 @@ function RandomHome({characters}) {
 
 
   return (
-    <div className='r-btn' > 
+    <div>
+    <p className='welcome'>
+      Welcome to Anime Land
+    </p>
+    
+    <div  > 
     {isLoading ? <img className='giphy' src="https://64.media.tumblr.com/4b36f39fa7f11002110ea5498095ccca/tumblr_n05ialS7Gv1sh547so1_500.gif"/>  : null}
     {anime && !isLoading ? (
       <Card id="random-card"> 
 
         <img src={anime.image}/>
-        <p>Hello</p>
+        <p></p>
       </Card>
     ) : null}
-    <button onClick={getRandomAnime}>
+    <button className='r-btn' onClick={getRandomAnime}>
       Get Random Anime
     </button>
+  </div>
   </div>
   )
 }

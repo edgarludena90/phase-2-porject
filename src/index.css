@@ -1,27 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+/* https://media.tenor.com/C-6fvsJAHNEAAAAC/shooting-stars-aesthetic.gif 
+https://media.tenor.com/0ufKblKdp5gAAAAd/japan-scenery.gif
+"https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711&dl=1"*/
 /* base styles */
 * {
   margin: auto;
   font-family: 'Quicksand';
   font-size: inherit;
 }
- body {
+body {
+  background:
+  url("https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711&dl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
   
- }
+}
+
+    
 /* Header */
  header {
 display: flex;
-background-color: antiquewhite;
+background-color: transparent;
 } 
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
 
 /* Nav Bar */
 .branding {
-  background-color: blue;
+  background-color: transparent;
 } 
 
  .navigation {
-  background-color: blanchedalmond;
+  background-color: transparent;
 } 
  .navbar {
   padding: 20px;
@@ -49,17 +62,25 @@ background-color: antiquewhite;
 } 
 
 /* Home Page */
+.welcome{
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: white;
+  
+
+}
 #random-card{
   display: flex;
   flex-direction: column;
   width: 500px;
-  margin: 0 auto;
+  margin: 100px auto;
   border: 4px solid var(--dark-turquoise);
   grid-gap: 1rem;
-
-  padding-top: 3rm;
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 600px;
 
 }
 
@@ -71,14 +92,24 @@ background-color: antiquewhite;
   border: 4px solid var(--dark-turquoise);
   grid-gap: 1rem;
   padding-top: 3rm;
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 600px;
 }
 
 #random-card img{
   position: relative;
+  width: 100%;
+  height: 100%;
+  
 }
 
+.r-btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px auto;
+  background: rgb(159, 10, 245);
+}
 /* Character Page */
 /* #wrapper {
   min-height: 100vh;
