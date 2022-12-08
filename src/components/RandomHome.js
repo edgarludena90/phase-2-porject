@@ -21,7 +21,7 @@ function RandomHome({heroes, villians}) {
       setTimeout(() => {
         setAnime(data)
         setIsLoading(false)
-      }, "3000")
+      }, "1000")
 
     })
   }
