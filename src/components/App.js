@@ -5,6 +5,7 @@ import AnimeContainer from './AnimeContainer'
 import AnimePage from './AnimePage'
 import React, { useState, useEffect } from 'react'
 import AddAnime from './AddAnime'
+import AnimeDetail from './AnimeDetail'
 const api1 = 'http://localhost:4000/Heroes'
 const api2 = 'http://localhost:4000/Villians'
 function App() {
@@ -52,19 +53,20 @@ function App() {
             </div>
           }
         />
-        <Route
-          path='/info'
-          element={
-            <div>
-              <AnimePage animeinfo={animeInfo} setAnimeInfo={setAnimeInfo} />
-            </div>
-          }
-        />
+
         <Route
           path='/form'
           element={
             <div>
               <AddAnime setAddedAnime={setAddedAnime} addedAnime={addedAnime} />
+            </div>
+          }
+        />
+        <Route
+          path='/info/:id'
+          element={
+            <div>
+              <AnimeDetail />
             </div>
           }
         />
