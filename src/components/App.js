@@ -10,9 +10,8 @@ const api = 'http://localhost:4000/Characters'
 
 function App() {
   const [CharactersList, setCharacersList] = useState([])
- 
+
   const [addedAnime, setAddedAnime] = useState('')
-  //the useState below is for the characterpage/ask gehrig to double check lol
   const [animeInfo, setAnimeInfo] = useState([])
 
   useEffect(() => {
@@ -21,10 +20,9 @@ function App() {
       .then(res => setCharacersList(res))
   }, [])
 
-
   return (
     <div className='App'>
-      <Header CharactersList={CharactersList}/>
+      <Header CharactersList={CharactersList} />
       <Routes>
         <Route
           exact
@@ -39,9 +37,7 @@ function App() {
           path='/char'
           element={
             <div>
-              <AnimeContainer
-                CharactersList={CharactersList}
-              />
+              <AnimeContainer CharactersList={CharactersList} />
             </div>
           }
         />
