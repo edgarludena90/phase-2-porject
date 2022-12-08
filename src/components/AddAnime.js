@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 
-// const heroApi = 'http://localhost:4000/Heroes'
-// const villianApi = 'http://localhost:4000/Villians'
 const api = 'http://localhost:4000/Characters'
 
 function NewAnimeForm({ addedAnime, setAddedAnime }) {
@@ -9,7 +7,7 @@ function NewAnimeForm({ addedAnime, setAddedAnime }) {
   const [newVideo, setNewVideo] = useState('')
   const [newBio, setNewBio] = useState('')
   const [newImage, setNewImage] = useState('')
-  
+
   const addAnime = e => {
     e.preventDefault()
     fetch(api, {
@@ -28,15 +26,11 @@ function NewAnimeForm({ addedAnime, setAddedAnime }) {
       .then(res => res.json())
       .then(res => setAddedAnime([...addedAnime, res]))
   }
-// ask how to add a a toggle button on hwo to go back and forth from vilian to hero 
-//also to add functionality to the "moreinfo button"
+  // ask how to add a a toggle button on hwo to go back and forth from vilian to hero
+  //also to add functionality to the "moreinfo button"
   return (
     <div className='new-Anime-form' onSubmit={addAnime}>
-      <div
-       
-      >
-        {' '}
-      </div>
+      <div> </div>
 
       <h2>New Anime</h2>
       <form>

@@ -14,11 +14,8 @@ function AnimeCard({ id, name, bio, stats, image, goal, videoUrl, origin }) {
         <div className='card__content'>
           <div className='card__title'>{name}</div>
 
-          {/* <div className='card__bio'>{bio}</div> */}
-
-          {/* we added the heart button just need to figure out how to change it from red to green */}
           <div className='card__detail'>
-            <Link to={`/info/${id}`}>show more</Link>
+            <Link to={`/info/${id}`}>ANIME MADNESS!</Link>
             {animeLikes ? (
               <Button onClick={likeButton} id='like-button'>
                 💔
@@ -37,10 +34,4 @@ function AnimeCard({ id, name, bio, stats, image, goal, videoUrl, origin }) {
 
 export default AnimeCard
 
-// {
-//   animeLikes ? (
-//     <button onClick={likeButton} className='primary'></button>
-//   ) : (
-//     <button onClick={likeButton}>Out of Stock</button>
-//   )
-// }
+
