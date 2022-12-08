@@ -13,14 +13,12 @@ function AnimeCard({ id, name, bio, stats, image, goal, videoUrl, origin }) {
         <img src={image} alt={name} className='card__image' />
         <div className='card__content'>
           <div className='card__title'>{name}</div>
-          <div className='card__video'> Video Highlights {videoUrl}</div>
 
           {/* <div className='card__bio'>{bio}</div> */}
 
           {/* we added the heart button just need to figure out how to change it from red to green */}
           <div className='card__detail'>
-            <Link to={`/info/${id}`}
-            >show more</Link>
+            <Link to={`/info/${id}`}>show more</Link>
             {animeLikes ? (
               <Button onClick={likeButton} id='like-button'>
                 💔

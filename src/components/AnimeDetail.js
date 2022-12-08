@@ -1,5 +1,5 @@
 import React from 'react'
-// implanment useParams 
+// implenment useParams 
 // use luises videos to figure out how to use this
 //give this an honest shot  go for broke!!!!!
 
