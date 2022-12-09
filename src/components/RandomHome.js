@@ -1,11 +1,27 @@
 import React, {useState, useEffect}  from 'react'
 import { Card } from 'react-bootstrap'
+import styled, {keyframes} from 'styled-components'
  
 
 function RandomHome({characters}) {
   const [isLoading, setIsLoading] = useState(false)
   const [anime, setAnime] = useState(null)
   
+  const textfade = keyframes`
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+
+    }`
+
+    const Title =styled.h1`
+    animation-name: ${textfade};
+    animation-duration: 2s;
+    `
 
   function getRandomAnime() {
     setIsLoading(true)
@@ -20,30 +36,45 @@ function RandomHome({characters}) {
       setTimeout(() => {
         setAnime(data)
         setIsLoading(false)
-      }, "1000")
+      }, 3000 )
 
     })
   }
 
 
-
   return (
     <div>
-    <p className='welcome'>
+    <Title className='welcome'>
       Welcome to Anime Land
-    </p>
+    </Title>
     
     <div  > 
-    {isLoading ? <img className='giphy' src="https://64.media.tumblr.com/4b36f39fa7f11002110ea5498095ccca/tumblr_n05ialS7Gv1sh547so1_500.gif"/>  : null}
-    {anime && !isLoading ? (
+    <iframe className='anime-trailer'
+    
+    width="850" 
+    height="415" 
+    src="https://www.youtube.com/embed/fQ6PRbh-ntM?autoplay=1&mute=true" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+    </iframe>
+
+    <Title className='btn-title'> Which Character Are You? </Title>
+
+      
+    {!isLoading ? <img className='giphy' src="http://static.demilked.com/wp-content/uploads/2016/06/gif-animations-replace-loading-screen-14.gif"/>  : null}
+    {anime && isLoading ? (
       <Card id="random-card"> 
 
         <img src={anime.image}/>
         <p></p>
       </Card>
     ) : null}
+    
     <button className='r-btn' onClick={getRandomAnime}>
-      Get Random Anime
+      CLICK HERE
     </button>
   </div>
   </div>
