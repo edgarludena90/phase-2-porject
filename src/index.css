@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-/* https://media.tenor.com/C-6fvsJAHNEAAAAC/shooting-stars-aesthetic.gif 
-https://media.tenor.com/0ufKblKdp5gAAAAd/japan-scenery.gif
-"https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711&dl=1"*/
-/* base styles */
 * {
   margin: auto;
   font-family: 'Quicksand';
@@ -20,7 +16,7 @@ body {
     
 /* Header */
  header {
-display: flex;
+text-align: left;
 background-color: transparent;
 } 
 /* .App {
@@ -31,19 +27,14 @@ background-color: transparent;
 /* Nav Bar */
 .branding {
   background-color: transparent;
+  font-size: 30px;
 } 
 
  .navigation {
   background-color: transparent;
 } 
- .navbar {
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
+ .navbar {  
   border-bottom: 1px solid #f2f2f2;
-  
 }
 
 .navbar h1 {
@@ -67,11 +58,29 @@ background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 50px;
+  font-size: 34px;
   color: white;
-  
-
+  font-weight: bolder;
+  padding-top: 7%;
+  text-shadow: -4px 2px #c38888;
 }
+
+.btn-title {
+  font-size: 34px;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    font-weight: bold;
+    text-shadow: -4px 2px #c38888;
+    
+    
+}
+
+.anime-trailer {
+display: flex;
+margin: 67px auto;
+}
+
 #random-card{
   display: flex;
   flex-direction: column;
@@ -107,8 +116,10 @@ background-color: transparent;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 100px auto;
+  margin: 37px auto;
   background: rgb(159, 10, 245);
+  color: white;
+  font-size: 109%;
 }
 /* Character Page */
 /* #wrapper {
@@ -119,34 +130,33 @@ background-color: transparent;
 cards-container {
   display: flex;
   flex-direction: column;
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
+
+  
 }
 .container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
-  grid-gap: 1rem;
-  grid-area: contant2;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  
+    display: flex;
+    grid-gap: 12px;
+    padding-top: 2rem;
+    flex-wrap: wrap;
 }
 
 /* Cards on Character Page */
 
-.card {
-  background-color: white;
+.card{
+  color: transparent;
   border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  background-color: var(--bs-card-bg);
 }
 
 .card__content {
   display: flex;
-  flex: 1 1 auto;
+  flex: ;
   flex-direction: column;
   padding: 1rem;
   
@@ -177,20 +187,50 @@ cards-container {
   text-transform: uppercase;
   font-display: center;
   text-align: center;
+  background: transparent;
 }
+
 
 /* Card Buttons */
 #like-button {
   position: relative;
-  left: 130px;
   background-color: transparent;
   border: none;
   border-radius: 0;
-  size-adjust: 10px;
+  font-size: 20px;
   
-  
+} */
 
+ /* .cardlikes{
+  margin: 1px 0px;
+} */
+
+.detail-btn{
+  position: relative;
+  right: 1200px;
+  background-color: #c38888;
+} 
+
+/* Anime Detail Page */
+.anime-detail {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-top: 15px;
+  
 }
+
+.char-detail {
+  flex-direction: column;
+  color: white;
+  height: 25%;
+  width: 96%;
+  background: #1b067b88;
+  margin: 42px auto;
+  text-align: left;
+  font-size: 14px ;
+}
+
 
 /* Form */
 form{
@@ -206,6 +246,7 @@ form{
     margin-bottom: 3rem;
     text-align: center;
     padding-top: 6rem;
+    color: white;
   
 }
 input,
@@ -219,3 +260,12 @@ select {
   transition: all 0.5s;
   
 }
+form button{
+  background: rgb(159, 10, 245);
+  color: white;
+}
+
+
+
+
+

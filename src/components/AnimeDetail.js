@@ -11,23 +11,25 @@ function AnimeDetail() {
       .then(response => response.json())
       .then(res => setCharacterDetail(res))
   }, [])
-
+  
+  {/* <img src={characterDetail.image} alt={''} /> */}
   return (
-    <div className='Anime-detail'>
-      <h1>{characterDetail.name}</h1>
-      <p> {characterDetail.bio}</p>
-      <p> {characterDetail.Goal}</p>
-      <p> {characterDetail.origin}</p>
-      <img src={characterDetail.image} alt={''} />
+    <div className='anime-detail'>
+      <h1 className='detail.name'>{characterDetail.name}</h1>
       <iframe
-        width='560'
-        height='315'
+        width='850'
+        height='415'
         src={characterDetail.videoUrl}
         title='YouTube video player'
         frameborder='0'
         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
         allowfullscreen
       ></iframe>
+      <div className='char-detail'>
+      <p className='detail.bio'> {characterDetail.bio}</p>
+      <p className='goal'> Goal : {characterDetail.Goal}</p>
+      <p className='origin'> Origin:  {characterDetail.origin}</p>
+      </div>
     </div>
   )
 }
